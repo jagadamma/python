@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy application
       run: |
-        python a.py
+        a.py

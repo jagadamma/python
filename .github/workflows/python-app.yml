@@ -9,7 +9,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: latest # Replace 'x' with the desired Python version
+        python-version: 3.9 # Replace 'x' with the desired Python version
 
     - name: Install dependencies
       run: |

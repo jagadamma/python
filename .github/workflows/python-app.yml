@@ -25,7 +25,8 @@ jobs:
        pwd
        who
        sudo -s
-       docker build -t gta .
-       docker run -itd --name c1 -p 5000:5000 gta 
-       nohup python a.py > /dev/null 2>&1 &
+       #docker build -t gta .
+       #docker run -itd --name c1 -p 5000:5000 gta 
+
+       sudo nohup python a.py > /dev/null 2>&1 &
 

@@ -22,5 +22,7 @@ jobs:
 
     - name: Deploy application
       run: |
+       pwd
+       ls
        nohup python a.py > /dev/null 2>&1 &
 

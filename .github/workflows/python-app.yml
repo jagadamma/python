@@ -17,4 +17,4 @@ jobs:
         pip install flask  # Install Flask module
 
     - name: Run Python script
-      run: python /home/runner/work/python/python/a.py  # Replace the path to your Python script
+      run: python /home/runner/work/python/a.py  # Replace the path to your Python script

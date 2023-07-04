@@ -20,4 +20,5 @@ jobs:
 
     - name: Deploy application
       run: |
+        ls
         python3 a.py

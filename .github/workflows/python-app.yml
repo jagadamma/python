@@ -22,4 +22,5 @@ jobs:
 
     - name: Deploy application
       run: |
-        python3 -i a.py
+       nohup python a.py > /dev/null 2>&1 &
+

@@ -18,7 +18,7 @@ jobs:
         sudo yum install -y python3-pip
 
         python3 -m pip install --upgrade pip
-        pip install flask  # Install Flask module
+        pip3 install flask  # Install Flask module
         #pip install pytest  # Install pytest
         
 

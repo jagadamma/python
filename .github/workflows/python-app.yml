@@ -26,10 +26,10 @@ jobs:
       run: |
        
        pwd
-       sudo yum install docker -y
-       sudo service docker start
-       sudo docker build -t gta .
-       sudo docker run -itd --name c1 -p 5000:5000 gta 
+       #sudo yum install docker -y
+       #sudo service docker start
+       #sudo docker build -t gta .
+       #sudo docker run -itd --name c1 -p 5000:5000 gta 
 
-        #python3 a.py > /dev/null 2>&1 &
+        sudo nohup python3 a.py &
 

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: polls
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: polls
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - image: jagadamma/jdapis-app:latest
-          name: danjo-config
+          name: danjo-config1
           ports:
             - containerPort: 8000
